@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { SearchPage } from '../pages/SearchPage';
+import { SearchPage } from '../pages/searchPage';
 import { searchData } from '../test-data/search.data';
 
 test.beforeEach(async ({ page }) => {
